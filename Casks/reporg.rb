@@ -3,7 +3,7 @@ cask "reporg" do
   name "reporg"
   desc "CLI tool that searches Git repositories using ripgrep and outputs results in TSV format"
   homepage "https://github.com/onozaty/reporg"
-  version "1.0.3"
+  version "1.1.0"
 
   livecheck do
     skip "Auto-generated on release."
@@ -17,22 +17,22 @@ cask "reporg" do
   on_macos do
     on_intel do
       url "https://github.com/onozaty/reporg/releases/download/v#{version}/reporg_v#{version}_Darwin_x86_64.tar.gz"
-      sha256 "217db06cdff5aa00aa07e3ba7a90415bb0b7f3208f735101b712aff9dd59e513"
+      sha256 "115f954e325389df665d864e4feff594e337b0243d6bc8a7440a0716c981e102"
     end
     on_arm do
       url "https://github.com/onozaty/reporg/releases/download/v#{version}/reporg_v#{version}_Darwin_arm64.tar.gz"
-      sha256 "87325cdca982e53cee64a60c9f849061bf1874bacd45f98a9f844ca51145e794"
+      sha256 "1fa2a355ba1428be3fbf31f26494e04f9291902a6980d6009670cc5758f11bf9"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/onozaty/reporg/releases/download/v#{version}/reporg_v#{version}_Linux_x86_64.tar.gz"
-      sha256 "c487828d29eb1dafb7dde95f412e0c8d4aff98c26d5adfb29214333df3ab84f5"
+      sha256 "9a10b5becd7b710e12a65ca04a205b1ba9e519df002a26ed976326897b280c1e"
     end
     on_arm do
       url "https://github.com/onozaty/reporg/releases/download/v#{version}/reporg_v#{version}_Linux_arm64.tar.gz"
-      sha256 "73297eb985d7fb33af23b2292f2bdb875f514150653af073bf21a27a7ad3688c"
+      sha256 "aff71823e934a83fa5fdef345cbecd63a11172ffcccfa7c2f6f0e4ec37bcefec"
     end
   end
 
