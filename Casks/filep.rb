@@ -3,7 +3,7 @@ cask "filep" do
   name "filep"
   desc "A powerful command-line file processing tool"
   homepage "https://github.com/onozaty/filep"
-  version "1.1.1"
+  version "1.1.2"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "filep" do
   on_macos do
     on_intel do
       url "https://github.com/onozaty/filep/releases/download/v#{version}/filep_v#{version}_Darwin_x86_64.tar.gz"
-      sha256 "b25cf68d75975cb9822ad8a48daceeab7303619b445442159de3ce65031b1212"
+      sha256 "e6657a318c05a5ba09479f294a01aa48a2a250531e8fea1f135cf02bec19ba40"
     end
     on_arm do
       url "https://github.com/onozaty/filep/releases/download/v#{version}/filep_v#{version}_Darwin_arm64.tar.gz"
-      sha256 "5b0740d9bff26db7cdfd735a6f9cbfce5cc466a3ca0c9b46d17d868352cd7c0a"
+      sha256 "fd3030d246ec418720436dec95f0f8b4f619b233ae4b867a1dab959daf06deb2"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/onozaty/filep/releases/download/v#{version}/filep_v#{version}_Linux_x86_64.tar.gz"
-      sha256 "a102bec4cc3d04d125bab40c165c297ec2e37307ea8488e5195383a2ae020c9f"
+      sha256 "eb3795c2bc4e7443452346f6b85c079aed317e4d459412a461c86945ebfe56cb"
     end
     on_arm do
       url "https://github.com/onozaty/filep/releases/download/v#{version}/filep_v#{version}_Linux_arm64.tar.gz"
-      sha256 "23712efcfbfd4916cc6950053b68aa2abb5cd1b1c1cf9e36393822bad15d3d8c"
+      sha256 "1c668579593f5f3e5dabf614d4c110ffed4501a9cfd132147d475940e596e7f6"
     end
   end
 
